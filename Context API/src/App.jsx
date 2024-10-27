@@ -5,7 +5,7 @@ import ThemeProvider from "./context/ThemeContext";
 
 function App() {
   return (
-    // * wrapping the Home component with ThemeProvider and AuthProvider
+    // * wrapping the Home component with ThemeProvider and AuthProvider context providers
     <ThemeProvider>
       <AuthProvider>
         <Home />
